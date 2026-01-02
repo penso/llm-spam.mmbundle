@@ -28,7 +28,7 @@ After installation, restart MailMate.
 
 ## Configuration
 
-1. In MailMate, go to **Command > LLM Spam Classifier > Configure...**
+1. In MailMate, go to **Command > LLM MailGuard > Configure...**
 2. Enter your LLM provider details:
    - **Provider Name**: A friendly name (e.g., "OpenAI", "Ollama")
    - **Endpoint URL**: The API endpoint
@@ -67,8 +67,8 @@ Note: Anthropic's native API format differs slightly. For best results, use an O
 
 1. Select an email in MailMate
 2. Choose a detection method:
-   - Press `Ctrl+L` or go to **Command > LLM Spam Classifier > Is it spam?** for general spam detection
-   - Press `Ctrl+Shift+L` or go to **Command > LLM Spam Classifier > Is it phishing?** for phishing/hacking detection
+   - Press `Ctrl+L` or go to **Command > LLM MailGuard > Is it spam?** for general spam detection
+   - Press `Ctrl+Shift+L` or go to **Command > LLM MailGuard > Is it phishing?** for phishing/hacking detection
 3. For each email, the LLM will analyze it and report:
    - If **threat detected**: You'll be asked if you want to move it to Junk
    - If **safe**: A notification will confirm it appears legitimate
@@ -120,7 +120,7 @@ llm-mailguard.mmbundle/
 
 ### "Not configured" error
 
-Run **Command > LLM Spam Classifier > Configure...** to set up your LLM provider.
+Run **Command > LLM MailGuard > Configure...** to set up your LLM provider.
 
 ### API errors
 

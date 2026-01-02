@@ -5,9 +5,9 @@
 	<key>contactName</key>
 	<string>MailMate User</string>
 	<key>description</key>
-	<string>Use LLM to classify emails as spam. Supports OpenAI-compatible APIs.</string>
+	<string>Use LLM to detect spam and phishing emails. Supports OpenAI-compatible APIs.</string>
 	<key>name</key>
-	<string>LLM Spam Classifier</string>
+	<string>LLM MailGuard</string>
 	<key>uuid</key>
 	<string>A4D630D9-3225-45D1-ADB6-181B3B940DA6</string>
 </dict>

@@ -45,7 +45,7 @@ def escape_for_applescript(text):
     return text
 
 
-def show_alert(message, title="LLM Spam Classifier"):
+def show_alert(message, title="LLM MailGuard"):
     """Show an AppleScript alert (blocking) with MailMate icon."""
     message = escape_for_applescript(message)
     title = escape_for_applescript(title)
@@ -58,7 +58,7 @@ def show_alert(message, title="LLM Spam Classifier"):
     run_applescript(script)
 
 
-def show_dialog(message, default_answer="", hidden=False, title="LLM Spam Classifier"):
+def show_dialog(message, default_answer="", hidden=False, title="LLM MailGuard"):
     """Show an AppleScript input dialog with MailMate icon."""
     message = escape_for_applescript(message)
     default_answer = escape_for_applescript(default_answer)
