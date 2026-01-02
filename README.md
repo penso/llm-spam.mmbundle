@@ -65,7 +65,7 @@ Note: Anthropic's native API format differs slightly. For best results, use an O
 
 ## Usage
 
-1. Select one or more emails in MailMate
+1. Select an email in MailMate
 2. Choose a detection method:
    - Press `Ctrl+L` or go to **Command > LLM Spam Classifier > Is it spam?** for general spam detection
    - Press `Ctrl+Shift+L` or go to **Command > LLM Spam Classifier > Is it phishing?** for phishing/hacking detection
@@ -75,7 +75,7 @@ Note: Anthropic's native API format differs slightly. For best results, use an O
 
 The phishing detector uses a more targeted prompt that reduces false positives on legitimate emails like password resets, security alerts, and order confirmations.
 
-**Note**: Each selected message triggers one LLM API call. Be mindful of costs when selecting many messages.
+**Note**: The command processes one email at a time.
 
 ## How It Works
 
